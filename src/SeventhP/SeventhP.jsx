@@ -46,8 +46,8 @@ export default function SeventhP() {
                         </article>
                     </article>
 
-                    <article className="md:block sem:hidden w-[240px] pt-[80px] h-[300px]">
-                        <article className="flex items-center gap-[30px]">
+                    <article className="md:block sem:hidden w-[240px] pt-[58px] h-[300px]">
+                        <article className="flex items-center mb-[15px] gap-[30px]">
                             <img src={image1} alt="" />
                             <article>
                                 <p className="text-[30px]">46,328</p>

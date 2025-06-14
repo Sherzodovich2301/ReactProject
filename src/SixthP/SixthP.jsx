@@ -8,7 +8,7 @@ export default function SixthP() {
 
   return (
     <section id="oltiP">
-      <div className="container md:max-w-[1000px] sem:max-w-[400px] mt-[50px] md:flex sem:block flex justify-evenly items-center">
+      <div className="container md:max-w-[800px] sem:max-w-[400px] mt-[50px] md:flex sem:block flex justify-evenly items-center">
         <article className="w-[100%] flex justify-center">
           <img className="md:mb-0 flex md:w-[500px] sem:w-[300px] sem:mb-[20px]" src={IMG7} alt="" />
         </article>

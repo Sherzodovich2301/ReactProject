@@ -9,9 +9,9 @@ export default function EightsP() {
 
   return (
     <section id="sakkizP">
-      <div className="container md:max-w-[1000px] sem:max-w-[400px] mt-[50px] md:flex sem:block flex justify-evenly items-center">
-        <article className="w-[100%] flex justify-center">
-          <img className="md:mb-0 flex  md:w-[450px] sem:w-[300px] sem:mb-[20px]" src={Pana} alt="" />
+      <div className="container md:max-w-[800px] sem:max-w-[400px] mt-[50px] md:flex sem:block flex justify-evenly items-center">
+        <article className="w-[100%] pr-[100px] md:pr-[100px] sem:pr-[30px] flex justify-center">
+          <img className="md:mb-0 flex md:w-[400px] sem:w-[300px] sem:mb-[20px]" src={Pana} alt="" />
         </article>
         <article className="w-[540px] md:w-[540px] sem:w-[390px] text-center">
           <article className="w-full flex justify-center">
