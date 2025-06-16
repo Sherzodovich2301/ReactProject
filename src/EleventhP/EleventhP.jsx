@@ -17,7 +17,7 @@ export default function EleventhP() {
                         <p className="pl-[20px] pr-[20px] lg:text-[18px] lg:pt-[20px] sem:pt-[40px] md:text-[25px]  text-center text-[18px] font-[600] leading-[24px] pt-[20px]">
                            {t(`Tenth.title12`)}
                         </p>
-                        <p className="cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 font-[600] leading-[24px] mt-[30px]">
+                        <p className="cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 hover:text-green-300 transition-all font-[600] leading-[24px] mt-[30px]">
                             {t(`Tenth.title2`)}
                         </p>
                     </article>
@@ -29,7 +29,7 @@ export default function EleventhP() {
                         <p className="lg:pt-[20px] sem:pt-[40px] lg:text-[18px] md:text-[25px] text-center text-[18px] font-[600] leading-[24px] pt-[20px]">
                             {t(`Tenth.title13`)}
                         </p>
-                        <p className="cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 font-[600] leading-[24px] mt-[30px]">
+                        <p className=" hover:text-green-300 transition-all cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 font-[600] leading-[24px] mt-[30px]">
                             {t(`Tenth.title2`)}
                         </p>
                     </article>
@@ -41,7 +41,7 @@ export default function EleventhP() {
                         <p className="pl-[20px] pr-[20px] lg:pt-[20px] sem:pt-[40px] lg:text-[18px] md:text-[25px] text-center text-[18px] font-[600] leading-[24px] pt-[20px]">
                             {t(`Tenth.title12`)}
                         </p>
-                        <p className="cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 font-[600] leading-[24px] mt-[30px]">
+                        <p className=" hover:text-green-300 transition-all cursor-pointer lg:text-[18px] md:text-[25px] text-center text-[18px] text-green-700 font-[600] leading-[24px] mt-[30px]">
                             {t(`Tenth.title2`)}
                         </p>
                     </article>

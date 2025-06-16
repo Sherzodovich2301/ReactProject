@@ -1,18 +1,33 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import img from "../Img/Logo (4).png"
 import { useTranslation } from 'react-i18next';
 
 export default function NavBar() {
-  const { i18n } = useTranslation()
+  const { i18n } = useTranslation();
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [openLang, setOpenLang] = useState(false);
+  const langRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      console.log("Clicked on:", event.target); // 👈 TEST QISMI
+      if (langRef.current && !langRef.current.contains(event.target)) {
+        setOpenLang(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang)
-    localStorage.setItem('language', lang)
-    setOpenLang(false)
-  }
+    i18n.changeLanguage(lang);
+    localStorage.setItem('language', lang);
+    setOpenLang(false);
+  };
 
   return (
     <section id="nav">
@@ -29,7 +44,7 @@ export default function NavBar() {
           </ul>
 
           {/* TIL TUGMASI (Dropdown) */}
-          <article className="hidden lg:flex items-center relative">
+          <div ref={langRef} className="hidden lg:flex items-center relative">
             <button
               onClick={() => setOpenLang(!openLang)}
               className="text-white hover:text-green-500 hover:bg-white hover:border-[1px] transition-all hover:border-green-500 w-[110px] h-[40px] rounded-[5px] bg-green-500"
@@ -53,7 +68,7 @@ export default function NavBar() {
                 </button>
               </div>
             )}
-          </article>
+          </div>
 
           {/* Mobil menyu tugmasi */}
           <button onClick={() => setMenuOpen(!menuOpen)} className="pl-[250px] lg:hidden text-[26px]">
@@ -81,5 +96,5 @@ export default function NavBar() {
         )}
       </div>
     </section>
-  )
+  );
 }

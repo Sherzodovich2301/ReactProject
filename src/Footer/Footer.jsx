@@ -19,19 +19,19 @@ export default function Footer() {
                 </article>
                 <article>
                     <p className="text-[25px] mb-[15px] font-[600] text-white">Company</p>
-                    <p className="mb-[10px] text-white">About us</p>
-                    <p className="mb-[10px] text-white">Blog</p>
-                    <p className="mb-[10px] text-white">Contact us</p>
-                    <p className="mb-[10px] text-white">Pricing</p>
-                    <p className="mb-[10px] text-white">Testimonials</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">About us</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Blog</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Contact us</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Pricing</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Testimonials</p>
                 </article>
                 <article className="hidden md:flex flex-col">
                     <p className="text-[25px] mb-[15px] font-[600] text-white">Support</p>
-                    <p className="mb-[10px] text-white">Help center</p>
-                    <p className="mb-[10px] text-white">Terms of service</p>
-                    <p className="mb-[10px] text-white">Legal</p>
-                    <p className="mb-[10px] text-white">Privacy pilicy</p>
-                    <p className="mb-[10px] text-white">Status</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Help center</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Terms of service</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Legal</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Privacy pilicy</p>
+                    <p className="hover:text-green-500 transition-all cursor-pointer w-auto mb-[10px] text-white">Status</p>
                 </article>
                 <article className="sem:hidden md:block">
                     <p className="text-[25px] mb-[15px] font-[600] text-white">
