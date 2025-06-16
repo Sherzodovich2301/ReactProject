@@ -11,6 +11,13 @@
 
 .swiper-pagination-bullet-active {
   background: #22c55e; 
+  
   opacity: 1;
   transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    display: none !important;
+  }
 }
