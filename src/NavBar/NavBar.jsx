@@ -18,7 +18,7 @@ export default function NavBar() {
     <section id="nav">
       <div className="w-screen h-[50px] z-20 fixed">
         <nav className="flex justify-around bg-gray-100 items-center w-full h-[80px]">
-          <a href="#nav"><img className="sm:flex sem:hidden h-auto" src={img} alt="" /></a>
+          <a href="#nav"><img className=" h-auto" src={img} alt="" /></a>
           <ul className="hidden lg:flex items-center gap-[45px]">
             <li className="cursor-pointer hover:text-green-500 transition-all"><a href="#nav">Home</a></li>
             <li className="cursor-pointer hover:text-green-500 transition-all"><a href="#sakkizP">Service</a></li>
@@ -32,7 +32,7 @@ export default function NavBar() {
           <article className="hidden lg:flex items-center relative">
             <button
               onClick={() => setOpenLang(!openLang)}
-              className="text-white w-[110px] h-[40px] rounded-[5px] bg-green-500"
+              className="text-white hover:text-green-500 hover:bg-white hover:border-[1px] transition-all hover:border-green-500 w-[110px] h-[40px] rounded-[5px] bg-green-500"
             >
               Language
             </button>

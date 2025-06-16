@@ -10,7 +10,7 @@ export default function TwelvethP() {
                 Pellentesque suscipit <br /> fringilla libero eu.
             </p>
             <article className="w-full text-center mt-[50px]">
-                <button className="text-white w-[150px] h-[40px] rounded-[5px] bg-green-500">
+                <button className="text-white hover:text-green-500 hover:bg-white hover:border-[1px] transition-all hover:border-green-500 w-[150px] h-[40px] rounded-[5px] bg-green-500">
                     {t(`Twelveth.title`)}
                 </button>
             </article>

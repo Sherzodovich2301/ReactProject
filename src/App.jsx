@@ -18,7 +18,7 @@ import Footer from './Footer/Footer'
 function App() {
 
   return (
-    <div className='h-[400vh]'>
+    <div>
       <NavBar/>
       <SecondSwiperP/>
       <ThirdPage/>
